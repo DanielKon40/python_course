@@ -129,3 +129,9 @@ num_of_bunnies_to_order_from_farm=int(number_of_cans)*amount_of_bunnies_in_one_c
 #output result to screen
 print("You will need to order", num_of_bunnies_to_order_from_farm, "bunnies.", "\nHope you liked our service!")
 
+
+
+
+
+
+
