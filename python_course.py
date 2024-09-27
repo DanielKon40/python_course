@@ -109,6 +109,23 @@ mylist=[1,2,3,4,5]
 str_a="hello"
 str_b="python"
 
-print(str_a, 'ffff', 'rrrr', str_b, sep='$', end='n')
+#print(str_a, 'ffff', 'rrrr', str_b, sep='$', end='n')
 
+#input
+#x=input("enter your name:")
+#print(x)
+
+#the bunny slaughter house
+
+#get input from user
+number_of_cans=input("How many cans of dog food do you want?")
+
+#set bunny to can ratio
+amount_of_bunnies_in_one_can=2.7
+
+#calculate
+num_of_bunnies_to_order_from_farm=int(number_of_cans)*amount_of_bunnies_in_one_can
+
+#output result to screen
+print("You will need to order", num_of_bunnies_to_order_from_farm, "bunnies.", "\nHope you liked our service!")
 
