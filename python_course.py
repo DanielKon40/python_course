@@ -115,6 +115,7 @@ str_b = "python"
 # x = input("enter your name:")
 # print(x)
 
+"""
 # the bunny slaughter house
 
 # get input from user
@@ -128,10 +129,35 @@ num_of_bunnies_to_order_from_farm = int(number_of_cans)*amount_of_bunnies_in_one
 
 # output result to screen
 print("You will need to order", num_of_bunnies_to_order_from_farm, "bunnies.", "\nHope you liked our service!")
+"""
 
+"""
+print(5 == 5)
+print(bool(5))
+"""
 
+x = 5
+# if(x < 7):
+#    print("OK")
+#    print("OK2")
 
+"""
+color = input("enter a color: \n")
+if(color == "blue"):
+    print("color is blue")
+elif(color == "red"):
+    print("color is red")
+"""
 
+fruit = input("enter a fruit: \n")
+if(fruit == "banana"):
+    print("fruit is banana")
+elif(fruit == "apple"):
+    print("fruit is apple")
+elif(fruit == "shesek"):
+    print("fruit is shesek")
+else:
+    print("fruit is not banana, or apple or shesek")
 
 
 
