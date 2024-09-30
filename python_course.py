@@ -149,6 +149,7 @@ elif(color == "red"):
     print("color is red")
 """
 
+""""
 fruit = input("enter a fruit: \n")
 if(fruit == "banana"):
     print("fruit is banana")
@@ -158,6 +159,31 @@ elif(fruit == "shesek"):
     print("fruit is shesek")
 else:
     print("fruit is not banana, or apple or shesek")
+"""
+#
+"""
+# בדיקה של כניסה לתוכנה
 
+user_name = input("enter your username: \n")
+user_age = int(input("enter yout age: \n"))
+password = input("enter password: \n")
 
+if (user_name == "" or password == ""):
+    print("you must enter username/password")
+elif (user_age < 18 or user_age > 120):
+    print("invalid user age")
+elif (password != "pa$$word"):
+    print("invalid password")
+else:
+    print("user:", user_name, "Welcome...")
+"""
+
+#לולאות
+
+x = 0
+
+while(x < 10):
+    print("Hello number", x)
+    x += 1
+print("loop finished")
 
